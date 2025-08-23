@@ -147,10 +147,12 @@ btn8.place(x=260, y=60, width=100, height=150)
 btn9 = Button(frame_botones2, text="Proyección 2031", image=img_btn9, compound="top", command=lambda: abrir_ventana(9, "Proyección 2031"))
 btn9.place(x=380, y=60, width=100, height=150)
 
-btn10 = Button(frame_botones2, text="Uni. Musica", image=img_btn10, compound="top", command=lambda: abrir_ventana(10, "Uni. Música"))
+btn10 = Button(frame_botones2, text="Artes Musicales", image=img_btn10, compound="top", command=lambda: abrir_ventana(10, "Artes Músicales"))
 btn10.place(x=500, y=60, width=100, height=150)
 
 # -----------------------------
 # run
 # -----------------------------
 ventana_principal.mainloop()
+
+
